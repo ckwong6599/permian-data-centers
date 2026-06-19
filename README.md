@@ -1,6 +1,6 @@
 # Permian Data
 
-Tracking TCEQ air permits in the Permian Basin (Ward, Reeves, Pecos, Loving, Culberson counties) tied to behind-the-meter (BTM) on-site power generation for data centers.
+Tracking TCEQ air permits in the Permian Basin (Ward, Reeves, Pecos, Loving, Culberson, Jeff Davis counties) tied to behind-the-meter (BTM) on-site power generation for data centers.
 
 Permit data is extracted from TCEQ NSR air permits, TCEQ records, and Oil & Gas Watch. Full documentation is here:
 https://docs.google.com/document/d/1sfSRWn85biFFcatyVwM2cZgxOc-LavWNXVXr4WsUOLQ/edit?usp=sharing
