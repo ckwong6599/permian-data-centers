@@ -20,3 +20,30 @@ Permits flagged as BTM on-site data centers, with site and generation details.
 | Kilby Power Plant | Reeves | 2869 | 7HA.02, Titan 350, Titan 130 | General Electric, Solar Turbines | Permitted | TCEQ NSR Air Permit, TCEQ Records, Oil and Gas Watch |
 | GW Ranch Energy Center | Pecos | 5000 | SGT-800 | Siemens Energy | Announced | TCEQ NSR Air Permit, TCEQ Records, Oil and Gas Watch |
 | Alpha Digital Campus | Reeves | 2000 | N/A | N/A | Announced | LandBridge Press Release |
+<<<<<<< Updated upstream
+=======
+
+## Repository structure
+
+```
+permian-data/
+├── data-center-list.csv        # Curated output: permits identified as BTM on-site data centers
+├── air-permits/                # Raw TCEQ NSR air-permit exports, grouped by permit type
+│   ├── std/                    # Standard permits (STDPMT)
+│   │   ├── air-permit-6-std.csv      # Region 06 (El Paso)
+│   │   └── air-permit-7-std.csv      # Region 07 (Midland)
+│   ├── psd/                    # Prevention of Significant Deterioration (PSD) permits
+│   │   ├── air-permit-6-psd.csv      # Region 06 (El Paso)
+│   │   └── air-permit-7-psd.csv      # Region 07 (Midland)
+│   ├── ghgpsd/                 # Greenhouse-gas PSD (GHGPSD) permits
+│   │   ├── air-permit-6-ghgpsd.csv   # Region 06 (El Paso)
+│   │   └── air-permit-7-ghgpsd.csv   # Region 07 (Midland)
+│   └── turbine-list.xlsx       # Reference list of turbine/engine models and OEMs
+├── .ipynb/
+│   └── permit_extraction.ipynb # Notebook that filters raw permits into data-center-list.csv
+├── pyproject.toml              # Python dependencies
+└── uv.lock                     # Locked dependency versions
+```
+
+The raw exports in `air-permits/` are split by **permit type** (`std`, `psd`, `ghgpsd`) and by **TCEQ region** (`6` = Region 06 / El Paso, `7` = Region 07 / Midland). The extraction notebook reads these, filters to Permian Basin counties and BTM on-site data centers, and produces `data-center-list.csv`.
+>>>>>>> Stashed changes
