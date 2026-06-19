@@ -20,8 +20,6 @@ Permits flagged as BTM on-site data centers, with site and generation details.
 | Kilby Power Plant | Reeves | 2869 | 7HA.02, Titan 350, Titan 130 | General Electric, Solar Turbines | Permitted | TCEQ NSR Air Permit, TCEQ Records, Oil and Gas Watch |
 | GW Ranch Energy Center | Pecos | 5000 | SGT-800 | Siemens Energy | Announced | TCEQ NSR Air Permit, TCEQ Records, Oil and Gas Watch |
 | Alpha Digital Campus | Reeves | 2000 | N/A | N/A | Announced | LandBridge Press Release |
-<<<<<<< Updated upstream
-=======
 
 ## Repository structure
 
