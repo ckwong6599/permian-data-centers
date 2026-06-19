@@ -46,4 +46,3 @@ permian-data/
 ```
 
 The raw exports in `air-permits/` are split by **permit type** (`std`, `psd`, `ghgpsd`) and by **TCEQ region** (`6` = Region 06 / El Paso, `7` = Region 07 / Midland). The extraction notebook reads these, filters to Permian Basin counties and BTM on-site data centers, and produces `data-center-list.csv`.
->>>>>>> Stashed changes
