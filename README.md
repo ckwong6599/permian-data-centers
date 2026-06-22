@@ -9,7 +9,7 @@ https://docs.google.com/document/d/1sfSRWn85biFFcatyVwM2cZgxOc-LavWNXVXr4WsUOLQ/
 
 Permits flagged as BTM on-site data centers, with site and generation details.
 
-| Site Name | County | Capacity (MW) | Turbine / Engine | OEM | Status | Sources |
+| Site Name | County Name | Capacity (MW) | Turbine / Engine | OEM | Status | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
 | Circe Energy Data Centers E Monahans Campus | Ward | 400 | HSK78G | Cummins | Permitted | TCEQ NSR Air Permit, TCEQ Records, Oil and Gas Watch |
 | Featherwood Energies Pecos Plant | Reeves | 931 | SGT-800 | Siemens Energy | Permitted | TCEQ NSR Air Permit, TCEQ Records, Oil and Gas Watch |
@@ -25,19 +25,21 @@ Permits flagged as BTM on-site data centers, with site and generation details.
 
 ```
 permian-data/
-├── data-center-list.csv        # Curated output: identified BTM on-site data centers. Includes those manually entered.
-├── candidates-list.csv          # List of candidate facilities suspected of being a BTM on-site data centers.
-├── air-permits/                # Raw TCEQ NSR air-permit exports, grouped by permit type
-│   ├── std/                    # Standard permits (STDPMT)
-│   │   ├── air-permit-6-std.csv      # Region 06 (El Paso)
-│   │   └── air-permit-7-std.csv      # Region 07 (Midland)
-│   ├── psd/                    # Prevention of Significant Deterioration (PSD) permits
-│   │   ├── air-permit-6-psd.csv      # Region 06 (El Paso)
-│   │   └── air-permit-7-psd.csv      # Region 07 (Midland)
-│   ├── ghgpsd/                 # Greenhouse-gas PSD (GHGPSD) permits
-│   │   ├── air-permit-6-ghgpsd.csv   # Region 06 (El Paso)
-│   │   └── air-permit-7-ghgpsd.csv   # Region 07 (Midland)
-│   └── turbine-list.xlsx       # Reference list of turbine/engine models and OEMs
+├── data
+    ├── raw
+        ├── air-permits/                # Raw TCEQ NSR air-permit exports, grouped by permit type
+│           ├── std/                    # Standard permits (STDPMT)
+│           │   ├── air-permit-6-std.csv      # Region 06 (El Paso)
+│           │   └── air-permit-7-std.csv      # Region 07 (Midland)
+│           ├── psd/                    # Prevention of Significant Deterioration (PSD) permits
+│           │   ├── air-permit-6-psd.csv      # Region 06 (El Paso)
+│           │   └── air-permit-7-psd.csv      # Region 07 (Midland)
+│           ├── ghgpsd/                 # Greenhouse-gas PSD (GHGPSD) permits
+│           │   ├── air-permit-6-ghgpsd.csv   # Region 06 (El Paso)
+│           └── └── air-permit-7-ghgpsd.csv   # Region 07 (Midland)
+|   ├── processed
+│       ├── data-center-list.csv        # Curated output: identified BTM on-site data centers. Includes those manually entered.
+│       └── candidates-list.csv          # List of candidate facilities suspected of being a BTM on-site data centers.
 ├── .notebooks/
 │   └── permit_extraction.ipynb # Notebook that filters raw permits into data-center-list.csv
 ├── pyproject.toml              # Python dependencies
