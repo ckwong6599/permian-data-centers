@@ -26,8 +26,8 @@ Permits flagged as BTM on-site data centers, with site and generation details.
 ```
 permian-data/
 ├── data
-    ├── raw
-        ├── air-permits/                # Raw TCEQ NSR air-permit exports, grouped by permit type
+|   ├── raw
+│       ├── air-permits/                # Raw TCEQ NSR air-permit exports, grouped by permit type
 │           ├── std/                    # Standard permits (STDPMT)
 │           │   ├── air-permit-6-std.csv      # Region 06 (El Paso)
 │           │   └── air-permit-7-std.csv      # Region 07 (Midland)
