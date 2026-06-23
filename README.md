@@ -26,24 +26,25 @@ Permits flagged as BTM on-site data centers, with site and generation details.
 ```
 permian-data/
 ├── data
-|   ├── raw
+│   ├── raw
 │       ├── air-permits/                # Raw TCEQ NSR air-permit exports, grouped by permit type
 │           ├── std/                    # Standard permits (STDPMT)
-│           │   ├── air-permit-6-std.csv      # Region 06 (El Paso)
-│           │   └── air-permit-7-std.csv      # Region 07 (Midland)
+│           │   ├── air-permit-6.csv        # Region 06 (El Paso)
+│           │   └── air-permit-7.csv        # Region 07 (Midland)
 │           ├── psd/                    # Prevention of Significant Deterioration (PSD) permits
-│           │   ├── air-permit-6-psd.csv      # Region 06 (El Paso)
-│           │   └── air-permit-7-psd.csv      # Region 07 (Midland)
+│           │   ├── air-permit-6.csv        # Region 06 (El Paso)
+│           │   └── air-permit-7.csv        # Region 07 (Midland)
 │           ├── ghgpsd/                 # Greenhouse-gas PSD (GHGPSD) permits
-│           │   ├── air-permit-6-ghgpsd.csv   # Region 06 (El Paso)
-│           └── └── air-permit-7-ghgpsd.csv   # Region 07 (Midland)
-|   ├── processed
+│           │   ├── air-permit-6.csv        # Region 06 (El Paso)
+│           └── └── air-permit-7.csv        # Region 07 (Midland)
+|   └── processed
 │       ├── data-center-list.csv        # Curated output: identified BTM on-site data centers. Includes those manually entered.
 │       └── candidates-list.csv          # List of candidate facilities suspected of being a BTM on-site data centers.
 ├── .notebooks/
-│   └── permit_extraction.ipynb # Notebook that filters raw permits into data-center-list.csv
-├── pyproject.toml              # Python dependencies
-└── uv.lock                     # Locked dependency versions
+│   ├── fetch_tceq_permits.ipynb    # Notebook that fetches relevant data
+│   └── filter_permits.ipynb        # Notebook that filters raw permits into data-center-list.csv
+├── pyproject.toml                  # Python dependencies
+└── uv.lock                         # Locked dependency versions
 ```
 
 The raw exports in `air-permits/` are split by **permit type** (`std`, `psd`, `ghgpsd`) and by **TCEQ region** (`6` = Region 06 / El Paso, `7` = Region 07 / Midland). The extraction notebook reads these, filters to Permian Basin counties and BTM on-site data centers, and produces `candidates-list.csv`. Those found through research and not through air permits are added and a final table is produced at `data-center-list.csv`
