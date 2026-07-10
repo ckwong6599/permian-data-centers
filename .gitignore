@@ -1,0 +1,6 @@
+# Ignore raw download files
+data/raw/air-permits
+data/raw/records
+
+# Random stuff
+.DS_Store

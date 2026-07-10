@@ -41,10 +41,11 @@ permian-data/
 │       ├── data-center-list.csv        # Curated output: identified BTM on-site data centers. Includes those manually entered.
 │       └── candidates-list.csv          # List of candidate facilities suspected of being a BTM on-site data centers.
 ├── .notebooks/
-│   ├── fetch_tceq_permits.ipynb    # Notebook that fetches relevant data
-│   └── filter_permits.ipynb        # Notebook that filters raw permits into data-center-list.csv
-├── pyproject.toml                  # Python dependencies
-└── uv.lock                         # Locked dependency versions
+│   ├── download_tceq_records.ipynb     # Notebook that downloads the permit records
+│   ├── fetch_tceq_permits.ipynb        # Notebook that fetches air permits
+│   └── filter_permits.ipynb            # Notebook that filters raw permits into data-center-list.csv
+├── pyproject.toml                      # Python dependencies
+└── uv.lock                             # Locked dependency versions
 ```
 
 The raw exports in `air-permits/` are split by **permit type** (`std`, `psd`, `ghgpsd`) and by **TCEQ region** (`6` = Region 06 / El Paso, `7` = Region 07 / Midland). The extraction notebook reads these, filters to Permian Basin counties and BTM on-site data centers, and produces `candidates-list.csv`. Those found through research and not through air permits are added and a final table is produced at `data-center-list.csv`
