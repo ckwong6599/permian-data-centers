@@ -1,0 +1,31 @@
+site_name,county,is_data_center,confidence,capacity_MW,path
+Staghorn Facility,Ward,false,high,9.9,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_180360-408828_Permits_Public_20260520_Technical Review_8426413_.pdf
+Pecos Power Plant,Reeves,false,high,225.6,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_178398-385199_Permits_Public_20241212_Technical Review_7453112_.pdf
+Jackrabbit Facility,Reeves,false,high,9.99,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_180362-409617_Permits_Public_20260610_Technical Review_8492765_.pdf
+Coyanosa Facility,Reeves,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_178270-384334_Permits_Public_20241203_Technical Review_7429588_.pdf
+NRG Wolf Bone Energy Center,Reeves,false,medium,1180.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_AirPermits-396507_Permits_Public_20260603_Technical Review_8474959_.pdf
+PPM Orla 1,Loving,false,high,14.04,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_180759-395111_Permits_Public_20250718_Technical Review_7815080_.pdf
+Circe Energy Data Centers S. Monahans Campus,Ward,true,high,400.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_183234-409633_Permits_Public_20260605_Technical Review_8486732_.pdf
+Coyote Spring Agr1,Reeves,false,low,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_176054-410845_Permits_Public_20260623_Technical Review_8516829_.pdf
+Hashland Egu,Pecos,false,medium,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_176526-374664_Permits_Public_20240614_Technical Review_7121259_.pdf
+Monahans Power Generation,Ward,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_182934-404700_Permits_Public_20260224_Technical Review_8269952_.pdf
+Verhalen Facility (Staghorn Facility),Reeves,false,high,9.9,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_183912-408729_Permits_Public_20260520_Technical Review_8426417_.pdf
+Pecos Power Plant,Reeves,false,high,456.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_AirPermits-398190_Permits_Public_20260327_Technical Review_8311216_.pdf
+GW Ranch Energy Center,Pecos,true,high,5000.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_AirPermits-396366_Permits_Public_20260121_Technical Review_8201547_.pdf
+Saddleback Agr1,Reeves,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_176053-372665_Permits_Public_20240422_Technical Review_7026746_.pdf
+Kodiak Agr1,Reeves,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_177873-381658_Permits_Public_20241016_Technical Review_7335946_.pdf
+Launch Site One,Culberson,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_AirPermits-387315_Permits_Public_20250717_Technical Review_7807600_.pdf
+Kilby Power Plant,Reeves,false,low,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_AirPermits-399548_Permits_Public_20260415_Technical Review_8350931_.pdf
+Badger Power Plant (Badger Gas Plant),Culberson,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_181782-398911_Permits_Public_20251015_Technical Review_7965962_.pdf
+Rock House Draw Generating Station,Pecos,true,high,576.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_181521-398180_Permits_Public_20251023_Technical Review_7973167_.pdf
+Faulkner Facility,Reeves,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_177130-381182_Permits_Public_20241022_Technical Review_7352104_.pdf
+Mi Vida Power Generation,Ward,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_177736-380834_Permits_Public_20241004_Technical Review_7304401_.pdf
+Cedarvale Facility,Ward,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_177155-381184_Permits_Public_20241107_Technical Review_7376206_.pdf
+Pecos Power Generation,Reeves,true,high,478.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_179308-389727_Permits_Public_20250305_Technical Review_7630740_.pdf
+Permian Basin Steam Electric Station,Ward,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_AirPermits-385412_Permits_Public_20250924_Technical Review_7917651_.pdf
+Comanche Creek Generating Station,Pecos,false,low,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_176519-374640_Permits_Public_20240606_Technical Review_7107107_.pdf
+Xenergy Monahans 1,Ward,true,high,118.98,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_174494-410474_Permits_Public_20260604_Technical Review_8477114_.pdf
+Pyote Facility,Ward,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_177154-381183_Permits_Public_20241030_Technical Review_7365380_.pdf
+Featherwood Energies Pecos Plant,Reeves,true,high,931.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_182541-402447_Permits_Public_20260108_Technical Review_8180573_.pdf
+Poolside Data Center Pecos County II,Pecos,true,high,332.28,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_183235-406111_Permits_Public_20260312_Technical Review_8293133_.pdf
+Coyanosa Facility,Reeves,false,high,-1.0,/Users/ckwong/Documents/GitHub/permian-data-centers/data/raw/records/AIR NSR_181538-398237_Permits_Public_20251014_Technical Review_7963670_.pdf

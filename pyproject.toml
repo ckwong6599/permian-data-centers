@@ -15,4 +15,5 @@ dependencies = [
     "pyarrow>=24.0.0",
     "pymupdf>=1.28.0",
     "requests>=2.34.2",
+    "sentence-transformers>=5.6.0",
 ]
