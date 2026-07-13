@@ -13,5 +13,6 @@ dependencies = [
     "pip>=26.1.2",
     "polars>=1.41.2",
     "pyarrow>=24.0.0",
+    "pymupdf>=1.28.0",
     "requests>=2.34.2",
 ]
